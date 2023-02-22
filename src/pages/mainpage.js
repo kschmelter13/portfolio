@@ -10,6 +10,7 @@ export default function mainpage() {
         <div>
             <Hero></Hero>
             <About></About>
+            <Projects></Projects>
         </div>
     </div>
   )

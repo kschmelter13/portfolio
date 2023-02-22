@@ -23,6 +23,15 @@ code {
   z-index: 3;
 }
 
+.fade-in {
+  animation: fade-in .5s ease-in-out;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
 
 .hero-section button {
   z-index: 1;

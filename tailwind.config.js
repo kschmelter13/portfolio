@@ -11,7 +11,7 @@ module.exports = {
         'lg': {'min': '768px'},
         'xl': {'min': '1024px'},
         '2xl': {'min': '1280px'},
-        '3xl': {'min': '1400px'},
+        '3xl': {'min': '1500px'},
         'big': {'min': '75vw'},
       }
     },
