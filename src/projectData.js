@@ -1,4 +1,3 @@
-import { linkClasses } from "@mui/material";
 import project1 from './assets/project1.gif'
 import project2 from './assets/project2.gif'
 import project3 from './assets/project3.gif'
@@ -9,9 +8,9 @@ import project6 from './assets/project6.gif'
 
 const projectData = [
     {
-        name: 'Project 1',
+        name: 'Pods',
         image: project1,
-        description: 'Project 1 Description',
+        description: 'A bank account budgeter that allows users to separate their money in "Pods". Uses React and Bootstrap for the frontend, and Supabase for the backend.',
         link: 'https://youtube.com'
     },
     {
