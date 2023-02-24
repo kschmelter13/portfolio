@@ -7,7 +7,7 @@ import Skills from '../components/skills';
 export default function mainpage() {
   return (
     <div>
-        <div>
+        <div className='main'>
             <Hero></Hero>
             <About></About>
             <Projects></Projects>
