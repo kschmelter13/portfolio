@@ -23,7 +23,7 @@ export default function Skills() {
 function Skill({ name, logo }) {
     return (
       <div className="mb-5">
-        <div className="rounded-circle shadow-2xl xs:p-3 md:p-4 lg:p-5 xl:p-6 2xl:p-7 mb-6 mx-auto" style={{width: 'calc(30px + 5vw)', height: 'calc(30px + 5vw)'}}>
+        <div className="rounded-circle shadow-xl xs:p-3 md:p-4 lg:p-5 xl:p-6 2xl:p-7 mb-6 mx-auto" style={{width: 'calc(30px + 5vw)', height: 'calc(30px + 5vw)'}}>
           <img
             className="logo w-18 h-18 transition-all duration-200 "
             src={logo}

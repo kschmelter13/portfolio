@@ -12,7 +12,7 @@ import css3 from 'devicon/icons/css3/css3-original.svg';
 import html5 from 'devicon/icons/html5/html5-original.svg';
 import cplusplus from 'devicon/icons/cplusplus/cplusplus-original.svg';
 import react from 'devicon/icons/react/react-original.svg';
-import bootstrap from 'devicon/icons/bootstrap/bootstrap-plain.svg';
+import bootstrap from 'devicon/icons/bootstrap/bootstrap-original.svg';
 import express from 'devicon/icons/express/express-original.svg';
 import nodejs from 'devicon/icons/nodejs/nodejs-original.svg';
 import sql from 'devicon/icons/mysql/mysql-original.svg';
