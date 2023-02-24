@@ -11,6 +11,7 @@ export default function mainpage() {
             <Hero></Hero>
             <About></About>
             <Projects></Projects>
+            <Skills></Skills>
         </div>
     </div>
   )

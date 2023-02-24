@@ -60,4 +60,21 @@ code {
   line-height: 1.5;
 }
 
+.rounded-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rounded-circle-img {
+  opacity: 100%;
+}
+
+.rounded-circle:hover img {
+  transform: translate(0, -8px) scale(1.08);
+}
 
