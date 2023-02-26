@@ -70,10 +70,7 @@ export const skillData = [
       name: 'Javascript',
       image: javascript,
     },
-    {
-        name: 'React',
-        image: react,
-    },
+    
     {
       name: 'Bootstrap',
       image: bootstrap,
@@ -82,7 +79,10 @@ export const skillData = [
       name: 'Tailwind',
       image: tailwind,
     },
-    
+    {
+      name: 'React',
+      image: react,
+    },
     {
       name: 'Node',
       image: nodejs,

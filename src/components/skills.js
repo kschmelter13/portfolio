@@ -10,8 +10,7 @@ export default function Skills() {
         {skillData.map(skill => (
                 <Skill
                     key={skill.name}
-                    name={skill.name}
-                    logo={skill.image}
+                    skill={skill}
                 />
                 ))}
         </div>
@@ -20,19 +19,19 @@ export default function Skills() {
   );
 }
 
-function Skill({ name, logo }) {
+function Skill({ skill }) {
     return (
       <div className="mb-5">
         <div className="rounded-circle shadow-xl xs:p-3 md:p-4 lg:p-5 xl:p-6 2xl:p-7 mb-6 mx-auto" style={{width: 'calc(30px + 5vw)', height: 'calc(30px + 5vw)'}}>
           <img
             className="logo w-18 h-18 transition-all duration-200 "
-            src={logo}
-            alt={name}
+            src={skill.image}
+            alt={skill.name}
             style={{opacity: '100%'}}
           />
         </div>
         <div className="text-center">
-          <span className="text-xl xs:text-xs sm:text-sm md:text-md lg:text-lg xl:text-xl  text-white mt-2">{name}</span>
+          <span className="text-xl xs:text-xs sm:text-sm md:text-md lg:text-lg xl:text-xl  text-white mt-2">{skill.name}</span>
         </div>
       </div>
     );
