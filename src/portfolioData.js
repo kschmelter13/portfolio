@@ -1,9 +1,9 @@
-import project1 from './assets/project1.webp'
-import project2 from './assets/project1.webp'
-import project3 from './assets/project3.webp'
-import project4 from './assets/project1.webp'
-import project5 from './assets/project1.webp'
-import project6 from './assets/project1.webp'
+import pods from './assets/pods.webp'
+import binarytree from './assets/binarytree.webp'
+import returns from './assets/returns.webp'
+import portfolio from './assets/portfolio.webp'
+
+import resume from './assets/resume.pdf'
 
 import java from 'devicon/icons/java/java-original.svg';
 import javascript from 'devicon/icons/javascript/javascript-original.svg';
@@ -19,41 +19,37 @@ import sql from 'devicon/icons/mysql/mysql-original.svg';
 import tailwind from 'devicon/icons/tailwindcss/tailwindcss-plain.svg';
 
 
-
+export const resumeData = 
+  {
+      name: 'Resume',
+      image: resume,
+  };
 
 export const projectData = [
     {
-        name: 'Pods',
-        image: project1,
-        description: 'A bank account budgeter that allows users to separate their money in "Pods". Uses React and Bootstrap for the frontend, and Supabase for the backend.',
-        link: 'https://youtube.com'
+        name: 'Portfolio',
+        image: portfolio,
+        description: 'Paradox! My portfolio website I built from scratch using React and Tailwind, and hosted on Render.com also using Formspree. Full source on Github.',
+        link: 'https://github.com/kschmelter13/portfolio'
     },
     {
-        name: 'Project 2',
-        image: project2,
-        description: 'Project 2 Description'
+      name: 'Pods',
+      image: pods,
+      description: 'A bank account budgeter that allows users to separate their money in "Pods". Uses React and Bootstrap for the frontend, and Supabase for the backend.',
+      link: 'https://youtube.com'
     },
     {
-        name: 'Binary Tree',
-        image: project3,
-        description: 'A project built for my data structures and algorithms class written in C++. Has a menu for exectuing operations on a binary tree that stores course information.',
-        link: 'https://github.com/kschmelter13/Data-Structures-Algorithms-Class'
+      name: 'Returns Automation',
+      image: returns,
+      description: 'A web app I built for Rug Pad USA that loads, parses, and tracks amazon xml returns using the UPS API. Built with React, Bootstrap, Supabase and secured with OAuth Azure.',
+      link: 'https://github.com/kschmelter13'
     },
     {
-        name: 'Project 4',
-        image: project4,
-        description: 'Project 3 Description'
-    },
-    {
-        name: 'Project 5',
-        image: project5,
-        description: 'Project 3 Description'
-    },
-    {
-        name: 'Project 6',
-        image: project6,
-        description: 'Project 3 Description'
-    },  
+      name: 'Binary Tree',
+      image: binarytree,
+      description: 'A project built for my data structures and algorithms class written in C++. Has a menu for executing operations on a binary tree that stores course information.',
+      link: 'https://github.com/kschmelter13/Data-Structures-Algorithms-Class'
+  },  
 ];
 
   
@@ -84,18 +80,6 @@ export const skillData = [
       image: react,
     },
     {
-      name: 'Node',
-      image: nodejs,
-    },
-    {
-      name: 'Express',
-      image: express,
-    },
-    {
-      name: 'SQL',
-      image: sql,
-    },
-    {
       name: 'Python',
       image: python,
     },
@@ -106,5 +90,17 @@ export const skillData = [
     {
       name: 'C++',
       image: cplusplus,
+    },
+    {
+      name: 'Express',
+      image: express,
+    },
+    {
+      name: 'SQL',
+      image: sql,
+    },
+    {
+      name: 'Node',
+      image: nodejs,
     },
   ];

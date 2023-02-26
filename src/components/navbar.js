@@ -1,5 +1,7 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link as MainLink} from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
+
 
 function Navbar() {
   return (
@@ -7,33 +9,55 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
-            <Link to="/" className="text-white font-bold text-lg">
+            <MainLink to="/" className="text-white font-bold text-lg">
               Kevin Schmelter
-            </Link>
+            </MainLink>
           </div>
           <div className="hidden sm:block">
             <div className="ml-6 flex">
-              <NavLink
-                to="/"
+              <ScrollLink
                 className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 activeClassName="bg-gray-900 text-white"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-210}
+                duration={500}
               >
-                About
-              </NavLink>
-              <NavLink
-                to="/projects"
+                <button>About</button>
+              </ScrollLink>
+              <ScrollLink
                 className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 activeClassName="bg-gray-900 text-white"
+                to="projects"
+                spy={true}
+                offset={-50}
+                smooth={true}
+                duration={500}
               >
-                Projects
-              </NavLink>
-              <NavLink
-                to="/skills"
+                <button>Projects</button>
+              </ScrollLink>
+              <ScrollLink
                 className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 activeClassName="bg-gray-900 text-white"
+                to="skills"
+                spy={true}
+                smooth={true}
+                duration={500}
               >
-                Skills
-              </NavLink>
+                <button>Skills</button>
+              </ScrollLink>
+              <ScrollLink
+                className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                activeClassName="bg-gray-900 text-white"
+                to="contact"
+                spy={true}
+                offset={-35}
+                smooth={true}
+                duration={500}
+              >
+                <button>Contact</button>
+              </ScrollLink>
             </div>
           </div>
         </div>

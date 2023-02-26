@@ -37,7 +37,7 @@ code {
   z-index: 1;
   font-size: 1rem;
   line-height: 1.5rem;
-  font-weight: bold;
+  font-weight: 600;
   color: #6366f1;
   background-color: #ffffff;
   border: 2px solid #6366f1;
@@ -64,7 +64,7 @@ code {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  background-color: #ffffffb6;
+  background-color: #ffffff93;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,7 +82,7 @@ code {
   z-index: 1;
   font-size: 1rem;
   line-height: 1.5rem;
-  font-weight: bold;
+  font-weight: 600;
   color: #6366f1;
   background-color: #ffffff;
   border: 2px solid #6366f1;
@@ -98,4 +98,22 @@ code {
 
 .main {
   padding-top: calc(3vw + 20px);
+}
+
+.submit-button {
+  z-index: 1;
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 600;
+  color: #6366f1;
+  background-color: #ffffff;
+  border: 2px solid #6366f1;
+  padding: 0.75rem 1rem;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.submit-button:hover {
+  background-color: #6366f1;
+  color: #ffffff;
+  z-index: 1;
 }

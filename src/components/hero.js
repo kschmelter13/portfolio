@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { resumeData } from '../portfolioData';
 
 export default function Hero() {
   const [showHello, setShowHello] = useState(false);
@@ -8,6 +9,10 @@ export default function Hero() {
     setTimeout(() => setShowHello(true), 500); // adjust the delay as needed
     setTimeout(() => setShowName(true), 1000); // adjust the delay as needed
   }, []);
+
+  const openResume = () => {
+    window.open(resumeData.image, '_blank');
+  };
 
   return (
     <div className="hero-section bg-gradient-to-r from-blue-600 to-purple-700">
