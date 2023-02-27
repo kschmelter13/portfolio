@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { resumeData } from '../portfolioData';
 
+
 export default function Hero() {
   const [showHello, setShowHello] = useState(false);
   const [showName, setShowName] = useState(false);
@@ -11,6 +12,7 @@ export default function Hero() {
   }, []);
 
   const openResume = () => {
+    console.log(resumeData)
     window.open(resumeData.image, '_blank');
   };
 
@@ -27,7 +29,7 @@ export default function Hero() {
         <p className="xs:text-xl md:text-2xl lg:text-3xl text-gray-200 font-bold xs:mt-4 sm:mt-8 md:mt-14 mb-6">
           Full Stack Developer and Computer Science student.
         </p>
-        <button className="bg-white text-gray-900 py-3 px-8 rounded-full hover:bg-gray-300 hover:text-gray-900 xs:mt-8 sm:mt-16 md:mt-20 xs:mb-0 md:mb-5 3xl:mb-20 ">
+        <button onClick={openResume} className="bg-white text-gray-900 py-3 px-8 rounded-full hover:bg-gray-300 hover:text-gray-900 xs:mt-8 sm:mt-16 md:mt-20 xs:mb-0 md:mb-5 3xl:mb-20 ">
           View Resume
         </button>
       </div>

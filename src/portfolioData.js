@@ -3,7 +3,7 @@ import binarytree from './assets/binarytree.webp'
 import returns from './assets/returns.webp'
 import portfolio from './assets/portfolio.webp'
 
-import resume from './assets/resume.pdf'
+import resume from './assets/Resume.pdf'
 
 import java from 'devicon/icons/java/java-original.svg';
 import javascript from 'devicon/icons/javascript/javascript-original.svg';
