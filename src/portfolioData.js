@@ -36,7 +36,7 @@ export const projectData = [
       name: 'Pods',
       image: pods,
       description: 'A bank account budgeter that allows users to separate their money in "Pods". Uses React and Bootstrap for the frontend, and Supabase for the backend.',
-      link: 'https://youtube.com'
+      link: 'https://pods.onrender.com'
     },
     {
       name: 'Returns Automation',
