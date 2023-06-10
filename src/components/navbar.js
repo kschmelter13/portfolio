@@ -1,7 +1,6 @@
-import React from 'react';
-import { Link as MainLink} from 'react-router-dom';
-import { Link as ScrollLink } from 'react-scroll';
-
+import React from "react";
+import { Link as MainLink } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 
 function Navbar() {
   return (
